@@ -101,7 +101,6 @@ def analyze(feature):
 
     #  uncomment below line to train model
     # regressor = train(X_train, y_train)
-
     # load_path = './saved/'+feature+'.joblib'
     # load model from disk
     load_path = os.path.abspath(os.path.join("KNN", "saved", feature+'.joblib'))
@@ -151,10 +150,3 @@ if __name__ == "__main__":
     except Exception as ex:
         print(ex, file=sys.stderr)
         # print(ex)
-
-    # res = main()
-    # res_json = json.dumps(res)  # convert to json
-    # print(res_json)
-    # return res
-    # dict_back = json.loads(res_json)
-    # print(dict_back["knn"])

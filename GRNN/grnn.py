@@ -89,9 +89,3 @@ if __name__ == "__main__":
 		print(res)
 	except Exception as ex:
 		print(ex, file=sys.stderr)
-
-	# import json
-	# return json.dumps(res)
-	# return res
-	# print("rmse :", rmse)
-	# return rmse
