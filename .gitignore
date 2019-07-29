@@ -1,0 +1,5 @@
+__pycache__\
+*.csv
+GRNN/__pycache__/
+KNN/__pycache__/
+MLL/__pycache__/
